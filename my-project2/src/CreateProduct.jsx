@@ -69,6 +69,7 @@ function CreateProduct() {
         <Form.Label>Availability</Form.Label>
         <Form.Control type="text" name="availabilityStatus" onChange={getInput} />
       </Form.Group>
+      <button>new</button>
       
       <Button variant="primary" type="submit"  >
         Submit
